@@ -1,0 +1,12 @@
+{
+	"name": "Moovtek Test",
+	"short_name": "Moovtek Test",
+	"theme_color": "#a78bfa",
+	"background_color": "#374151",
+	"display": "standalone",
+	"lang": "en",
+	"orientation": "portrait",
+	"scope": "/",
+	"start_url": "/",
+	"icons": []
+}

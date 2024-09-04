@@ -1,0 +1,30 @@
+.loginPage {
+	:global {
+		.mantine-TextInput-input {
+			height: 40px;
+			border-radius: 8px;
+		}
+		.mantine-PasswordInput-input {
+			height: 40px;
+			border-radius: 8px;
+			.mantine-PasswordInput-innerInput {
+				height: 40px;
+			}
+		}
+	}
+
+	button {
+		&.loginWithEmail {
+			height: 40px;
+			background-color: #1677ff;
+			border-radius: 8px;
+			color: #fff;
+			transition: 0.2s;
+			font-weight: normal;
+
+			&:hover {
+				background-color: #375de2;
+			}
+		}
+	}
+}

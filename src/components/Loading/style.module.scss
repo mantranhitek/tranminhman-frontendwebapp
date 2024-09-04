@@ -1,0 +1,9 @@
+.loadingCustom {
+	:global {
+		.mantine-LoadingOverlay-root {
+			position: fixed;
+			width: calc(100% - 260px);
+			left: auto;
+		}
+	}
+}
